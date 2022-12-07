@@ -1,0 +1,91 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  color: #fff;
+  background-color: #fff;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Verdana";
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #1b244a;
+  border-radius: 4px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bg-counter {
+  color: #f94f6d;
+  font-size: 90px;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  background-color: #080001;
+  height: 120px;
+  width: 155px;
+  border-radius: 5px;
+  line-height: 127px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Cursed Timer ULiL";
+  border: 2px solid #9aabdb;
+  border-radius: 5px;
+  margin: 3.5rem 0;
+  margin-right: 0.8rem;
+  line-height: 28px;
+  background-color: transparent;
+  color: #9aabd8;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.reset {
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Cursed Timer ULiL";
+  border: 2px solid #9aabdb;
+  border-radius: 5px;
+  margin-right: 0.8rem;
+  line-height: 28px;
+  background-color: transparent;
+  color: #9aabd8;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+  margin-bottom: 2.5rem;
+}
+.reset:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
